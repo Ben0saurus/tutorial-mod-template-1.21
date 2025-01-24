@@ -14,6 +14,7 @@ public class ModItems {
 
     public static final Item CUCUMBER = registerItem("cucumber", new Item(new Item.Settings()));
     public static final Item EGGPLANT = registerItem("eggplant", new Item(new Item.Settings()));
+    public static final Item SALAD = registerItem("salad", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
@@ -28,6 +29,7 @@ public class ModItems {
             entries.add(RAW_PINK_GARNET);
             entries.add(CUCUMBER);
             entries.add(EGGPLANT);
+            entries.add(SALAD);
         });
     }
 }
